@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "grokking-algo"
+version = "0.1.0"
+description = "This is an educational project dedicated to the study of algorithms and data structures based on the book by Aditya Bhargava - \"Grokking Algorithms\""
+authors = ["amidmvp <amidmvp@gmai.com>"]
+readme = "README.md"
+packages = [{include = "grokking_algo"}]
+
+[tool.poetry.dependencies]
+python = "3.9.5"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^6.1.0"
+black = "^23.7.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
