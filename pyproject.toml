@@ -8,6 +8,7 @@ packages = [{include = "grokking_algo"}]
 
 [tool.poetry.dependencies]
 python = "3.9.5"
+mydependency = {git = "grokking-algo", branch = "master"}
 
 [tool.poetry.dev-dependencies]
 flake8 = "^6.1.0"
